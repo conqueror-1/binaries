@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#Program to open vimrc without using too many commands
+#script to open vimrc fast
 
 FILE=~/.config/nvim/init.vim
 
