@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 #script to open vimrc fast
 
-FILE=~/.config/nvim/init.vim
+FILE=$HOME/.config/nvim/init.vim
 
 nvim $FILE
