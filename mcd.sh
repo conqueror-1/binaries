@@ -1,12 +1,12 @@
-#!/usr/bin/env sh
+#!/bin/bash
 #script to make a directory and change into it.
 
-mcd ()
+function mcd ()
 {
     mkdir -p $1
+    cd $1
 }
 
 #input is relative path to file
 #$1 is directory string
 mcd $1
-cd $1
