@@ -1,17 +1,17 @@
-##!/usr/bin/env sh
+#!/usr/bin/env sh 
 #script to make a directory and change into it.
 
-mcd ()
+function mkd ()
 {
-    mkdir -p $1
+    mkdir  $1
 }
 
-chdr ()
+function chdr ()
 {
     cd $1
 }
 
 #input is relative path to file
 #$1 is directory string
-mcd $1
+mkd $1
 chdr $1
